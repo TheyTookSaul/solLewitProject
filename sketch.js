@@ -1,6 +1,7 @@
 
 function setup() {
     createCanvas(windowWidth, windowHeight);
+    
   }
 
 function stop(){
@@ -52,6 +53,7 @@ function stop(){
     // rect(windowWidth/2, windowHeight/6 * 5, windowWidth/2, windowHeight/6);
 
     background(255, 255, 255);
+
     for (let i = 0; i < 100; i++) 
     {   
         let randR = random(0, 255);
